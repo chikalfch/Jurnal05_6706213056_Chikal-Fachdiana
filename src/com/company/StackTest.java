@@ -2,6 +2,10 @@ package com.company;
 import java.util.Stack;
 import java.util.Scanner;
 
+/** source code from GeekforGeeks https://www.geeksforgeeks.org/stack-set-2-infix-to-postfix/
+ * accessed 2022-03-24
+ */
+
 public class StackTest {
     private static int Prec(char ch) {
         switch (ch) {
